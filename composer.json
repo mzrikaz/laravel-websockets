@@ -1,5 +1,5 @@
 {
-    "name": "beyondcode/laravel-websockets",
+    "name": "beyondcode/laravel-websockets",  // Keep the same package name
     "description": "An easy to launch a Pusher-compatible WebSockets server for Laravel.",
     "keywords": [
         "beyondcode",
@@ -27,9 +27,9 @@
             "homepage": "https://github.com/rennokki",
             "role": "Developer"
         }
-    ],
+    },
     "require": {
-        "php": "^8.0|^8.1",
+        "php": "^8.2.11",  // Update the PHP version to match your installation
         "cboden/ratchet": "^0.4.4",
         "clue/block-react": "^1.5",
         "clue/reactphp-sqlite": "^1.0",
